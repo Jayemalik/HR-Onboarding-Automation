@@ -79,7 +79,12 @@ Ensure your ServiceNow instance has:
 
    * **Onboarding Flow** – Triggered when Workday sends a new hire event.
    * **Offboarding Flow** – Triggered when Workday sends a termination event.
-   Dashboard:https://github.com/Jayemalik/HR-Onboarding-Automation/blob/main/Deployment/Images/architecture.png
+
+
+Below is the dashboard, which visualizes the automated process from Workday termination events to account deactivation, asset recovery, and HR case closure.
+
+![Offboarding Flow Dashboard](https://github.com/Jayemalik/HR-Onboarding-Automation/blob/main/Deployment/Images/architecture.png)
+
 
    * Create HR case in HRSD
    * Provision Azure AD account
